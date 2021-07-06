@@ -40,7 +40,7 @@ my $o_warn          =	undef;		# warning level in seconds
 my $o_crit          =	undef;		# critical level in seconds
 my $o_timeout       =   undef; 		# Timeout (Default 5)
 my $o_perf          =   undef;      # Output performance data
-my $o_version2      =   undef;      # use snmp v2c -- not allowed on NUTANIX by CNES
+my $o_version2      =   undef;      # use snmp v2c -- not allowed on  some client
 # SNMPv3 specific
 my $o_login         =	undef;		# Login for snmpv3
 my $o_passwd        =	undef;		# Pass for snmpv3
